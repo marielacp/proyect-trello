@@ -101,7 +101,7 @@ background-color:#278CBF;
 #container {
 background-color: #0079bf;
 width: 100%;
-height: 500px;
+height: 700px;
 }
 .main{
 width: 100%;
@@ -183,7 +183,6 @@ border-radius: 5px;
 }
 .divbtn{
 width: 25%;
-border:;
 height: 25px;
 margin-top:4%;
 border-radius: 5px;
