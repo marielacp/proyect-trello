@@ -1,0 +1,354 @@
+*{
+box-sizing: border-box;
+font-family: "Segoe UI",Arial,sans-serif;
+margin: 0;
+padding: 0;
+}
+#nav{   
+background-color:#046596;
+position: relative;
+width: 100%;
+height: 50px;       
+}
+.ione,.itwo,.ithree,.ifour, .ifive, .six{
+background-color:#278CBF;
+width: 8%;
+height:25px;
+display: inline-block;
+color: white;
+margin-top:10px;
+border-radius: 3px;
+margin-left: 5px;
+}
+.ione i{
+padding-left:3px;
+margin-right:5px;
+}
+.itwo{
+width: 15%;
+}
+.itwo i{
+margin-left:90%;
+transform:rotate(+90deg);
+}
+.ithcont{
+position: absolute;
+width: 20%;
+height: 50px;
+left: 40%;
+top: 3%;
+font-size: 25px;
+text-align: center;
+padding: 0%;
+}
+.ithree{
+width:4%;
+position: absolute;
+left: 25px;
+top: -5px;
+background-color: #046596;
+}
+.ifour{
+left: 50px;
+top:-10px;
+position: absolute;
+width:40%;
+background-color: #046596;
+padding: 0px;
+}
+.ifour h1 {
+font-family:segoesc;
+font-style: italic;
+font-size: 20px;
+font-size: 30px;
+width: 100px;
+}
+.ifive{
+position: absolute;
+right: 3%;
+width: 11.5%;
+}
+.ifivelist {
+list-style: none;
+line-height: 30px;
+color: white;
+text-align: center;
+background-color:#046596;
+}
+.ifivelist li{
+display: inline-block;
+padding: 0px 5px 0px;
+}
+.ifivelist li i{
+background-color:#278CBF;
+padding: 4px 7px 4px;
+border-radius: 3px;
+}
+.six{
+position: absolute;
+right: 1.5%;
+width: 3%;
+text-align:center;
+background-color:#046596;
+}
+.six img {
+width: 25px;
+height: auto;
+border-radius: 180%;
+margin-top: 2.5px;
+background-color:#278CBF;
+}
+#container {
+background-color: #0079bf;
+width: 100%;
+height: 500px;
+}
+.main{
+width: 100%;
+}
+.mainlist li{
+display:inline-block;
+list-style: none;
+color: white;
+margin: 1% 1% 1% 2%;
+}
+.mainlist li:first-child{
+font-size: 20px;
+}
+.mainlist li:last-child{
+font-size: 14px;
+margin: 0%;
+}
+.main1{
+position: absolute;
+top:9%;
+right: 2%;
+width: 10%;
+width: 15%;
+text-align: right;
+}
+.main1 .contlist a{
+width: 90px;
+font-size: 13px;
+background-color: #0079bf;
+}
+/*1er formulario html*/
+#title{
+position: absolute;
+width: 80%
+}
+a{
+background-color:#278CBF;
+color: white;
+display:inline-block;
+margin-left: 2%;
+padding: .5%;
+width: 25%;
+font-size: 12px;
+}
+.texto {
+background-color: rgb(17, 76, 105);
+color: white;
+display:inline-block;
+margin-left: 2%;
+padding: .5%;
+}
+.divform{
+position: absolute;
+top: 0%;
+left: 2%;
+width: 25%;
+height:70px;
+background-color: #D7DBDD;
+padding:.5%;
+visibility: hidden;
+}
+.divform-one {
+position: absolute;
+top: 0%;
+left: 35%;
+width: 25%;
+height: 70px;
+background-color: #D7DBDD;
+padding: .5%;
+visibility: hidden;
+}
+.divinpt{
+width: 100%;
+padding: 1%;
+font-size: 12px;
+background-color: #CACFD2;
+outline: none;
+border-radius: 5px;
+}
+.divbtn{
+width: 25%;
+border:;
+height: 25px;
+margin-top:4%;
+border-radius: 5px;
+font-size: 12px;
+color: white;
+background-color:#13A229 ;
+}
+.divh3{
+display: inline-block;
+font-size: 15px;
+color: gray;
+padding: 2%;
+}
+/* 1er formulario interactivo*/
+.divformint{
+position: absolute;
+display: inline-block;
+top: 3%;
+left: 2%;
+width: 25%;
+height:50px;
+background-color:#D7DBDD;
+padding:0%;
+}
+.divinptint {
+display: inline-block;
+background-color:#D7DBDD;
+font-weight: bold;
+font-size: 12px;
+height: 25%;
+width: 100%;
+font-size: 12px;
+border: 0;
+color:rgb(63, 60, 60);
+padding: 3%;
+}
+.link{
+position: absolute;
+display:block;
+width: 100%;
+font-size: 12px;
+background-color: rgb(155, 183, 197);
+color:black;
+height: 26px;
+left: -2%;
+padding: 2%;
+}
+.link:hover{
+background-color: #CACFD2;
+}
+.iconiteract{
+display: inline-block;
+position: absolute;
+width:5%;
+right: 2%;
+font-size: 13px;
+color:rgb(63, 60, 60);
+}
+/*Segundo formulario iteractivo*/
+.divformintt {
+display:block;
+top: 45%;
+left: 2%;
+width: 25%;
+background-color: rgb(226, 233, 236);
+padding: .5%;
+}
+/* form iteranctivo 2*/
+.contForm-iteractiv-2 {
+position: absolute;
+top: 50%;
+left: 0%;
+width: 100%;
+height: 200px;
+background-color: #D7DBDD;
+padding: .5%;
+visibility: hidden;
+padding: 2%;
+}
+.contForm-listTareas{
+display:block;
+top: 50%;
+left: 0%;
+width: 100%;
+height: 150px;
+background-color:#D7DBDD;
+padding: .5%;
+}
+.list-one {
+top: 0%;
+width: 100%;
+height: 150px;
+font-size: 12px;
+color: black;
+outline: none;
+left: 0%;
+padding: 2%;
+}
+.list-two-one {
+top: 0%;
+width: 100%;
+height: 100px;
+font-size: 12px;
+color: black;
+outline: none;
+left: 0%;
+padding: 2%;
+}
+.list-two-two {
+position: absolute;
+top: 18%;
+width: 96%;
+height: 130px;
+font-size: 12px;
+color: black;
+outline: none;
+left:2%;
+padding: 2%;
+}
+.btntxt{
+font-size: 12px;
+color: white;
+}
+.divh3iter {
+display: inline-block;
+font-size: 25px;
+color: gray;
+padding: 2%;
+}
+.iconiter {
+display: inline-block;
+width: 5%;
+margin-left: 60%;
+font-size: 20px;
+color: gray;
+}
+.txto {
+display:inline-block;
+margin-left: 55%;
+width: 25%;
+height: 30px;
+font-size: 12px;
+color: black;
+left: 45%;
+padding: 2%;
+outline: 2px solid red;
+background: red;
+}
+.iconiterr {
+display: inline-block;
+width: 15%;
+font-size: 20px;
+color: rgb(96, 98, 155);
+background-color: black;
+
+}
+.li {    
+top: 2%;
+width: 96%;
+height: 60px;
+font-size: 12px;
+color: black;
+outline: none;
+left: 2%;
+padding: 2%;
+background: red;
+}
+
